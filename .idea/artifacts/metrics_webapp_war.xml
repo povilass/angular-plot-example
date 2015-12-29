@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="metrics-webapp:war">
+    <output-path>$PROJECT_DIR$/metrics-webapp/target</output-path>
+    <root id="archive" name="metrics.war">
+      <element id="artifact" artifact-name="metrics-webapp:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,43 @@
+<html ng-app="appMain">
+<head lang="en">
+    <meta charset="UTF-8"/>
+    <title>Metrics charts</title>
+    <script src='js/lib/jquery/jquery-1.11.3.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-sanitize.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-route.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-resource.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-messages.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-cookies.js' type='text/javascript'></script>
+    <script src='js/lib/angular/angular-animate.js' type='text/javascript'></script>
+
+    <!-- plot libs-->
+    <script src='js/lib/plot/excanvas.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.navigate.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.resize.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.selection.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.stack.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.time.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.colorhelpers.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.canvas.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.categories.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.crosshair.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.errorbars.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.fillbetween.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.image.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.pie.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.symbol.js' type='text/javascript'></script>
+    <script src='js/lib/plot/jquery.flot.threshold.js' type='text/javascript'></script>
+
+    <script src='js/app/app.js' type='text/javascript'></script>
+
+</head>
+<body ng-controller="MainController">
+<div class="view-animate-container" ng-view="">
+    <plot-element/>
+    <plot-element2/>
+    <plot-sin-cos/>
+</div>
+</body>
+</html>

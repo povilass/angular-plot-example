@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/core-dao/core-dao.iml" filepath="$PROJECT_DIR$/core-dao/core-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics-diagrams.iml" filepath="$PROJECT_DIR$/metrics-diagrams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/metrics-webapp/metrics-webapp.iml" filepath="$PROJECT_DIR$/metrics-webapp/metrics-webapp.iml" />
+    </modules>
+  </component>
+</project>
